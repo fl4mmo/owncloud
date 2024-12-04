@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#installation du paquet zip pour l'utiliser dans le script
+apt-get install -y zip
+
 # Variables
 OWNCLOUD_DIR="/var/lib/docker/volumes/8bd46db098016ff43756d3fc6afbb876aa91ee52be5bf208894f52eb1a/_data/data/admin/files/toip"  # Répertoire toip
 ARCHIVE_DIR="/home/Owncloud-sync"  # Répertoire archive
